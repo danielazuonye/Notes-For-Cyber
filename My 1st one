@@ -1,0 +1,107 @@
+
+Week 1 Notes: Theory & Basic Concepts
+
+1. What is an Operating System (OS)?
+An Operating System (OS) is the software that manages computer hardware and software resources. It acts as an intermediary between users and the computer hardware. The OS is responsible for managing tasks like file management, memory management, process control, and hardware control. Examples of OSs are Windows, Linux, and macOS.
+
+2. Differences Between Windows and Linux:
+Windows is a proprietary OS developed by Microsoft. It is user-friendly with a graphical interface and wide application support.
+Linux is an open-source OS with multiple distributions (e.g., Ubuntu, CentOS). It is favored for customization, security, and server environments. It requires more command-line usage and is typically seen as more technical.
+Proprietary OS: This is an operating system that is owned by a company, and you need to pay for it or get permission to use it. The source code (the underlying code that makes it work) is not available to the public. Example: Windows.
+
+Open-source OS: This is an operating system whose source code is freely available to the public. Anyone can view, modify, and distribute it. Example: Linux.
+
+In short:
+
+Proprietary OS = Closed, paid, owned by a company (e.g., Windows).
+Open-source OS = Open, free, can be modified (e.g., Linux).
+
+Key Differences:
+
+User Interface: Windows uses GUI; Linux is command-line-focused but has GUI options.
+
+Software: Windows has a larger variety of software available out-of-the-box; Linux has more free/open-source software.
+File System: Linux uses ext4, while Windows uses NTFS.
+Cost: Windows requires a license; Linux is free.
+3. What is a Virtual Machine (VM)?
+A Virtual Machine (VM) is a software-based simulation of a physical computer. It runs an operating system and applications just like a physical machine but is isolated from the host system. VMs are useful for running multiple OSs on a single computer without interference.
+
+Popular VM Software:
+
+VMware
+VirtualBox
+4. How to Use VMware and VirtualBox to Install a Linux VM:
+Install VM Software: Download and install VMware or VirtualBox.
+Create a New VM: In the VM software, select New VM and allocate resources (RAM, storage).
+Install Linux: Mount the Linux ISO (installation file) and follow the steps to install a Linux distribution.
+
+5. How to Search for and Find Linux Distributions for Installation:
+Popular Linux Distributions: Ubuntu, Fedora, CentOS, Debian.
+Where to Find Them: Search for official download links on the distro’s website (e.g., ubuntu.com or centos.org).
+
+6. Navigating File Systems using PowerShell and Linux Terminal:
+PowerShell (Windows):
+List files: Get-ChildItem
+Change directory: cd <directory>
+Linux Terminal:
+List files: ls
+Change directory: cd <directory>
+View the current directory: pwd
+
+7. Creating and Editing Folders/Files Using Terminal Commands:
+Linux:
+Create folder: mkdir <foldername>
+Create file: touch <filename>
+Edit file: nano <filename>
+Delete file: rm <filename>
+Delete folder: rm -r <foldername>
+
+8. Searching for File Names and Folders Using Commands:
+Linux:
+Search for files: find /path/to/search -name <filename>
+Search content within files: grep -r "search_term" <directory>
+
+9. GitHub Basics:
+What is GitHub? GitHub is a platform for hosting and sharing code using Git, a version control system that tracks changes in files. It's great for collaboration and version tracking.
+
+Creating a GitHub Account:
+
+Go to github.com and sign up.
+Once logged in, you can create repositories to store and share your code.
+Basic GitHub Tasks:
+
+Creating repositories: Click on "New" to create a repository.
+Pushing: Upload code changes to GitHub using git push.
+Pulling: Retrieve changes from a repository using git pull.
+Merging: Combine code changes from different branches with git merge.
+Checking for conflicts: Git will notify if changes from different branches conflict.
+10. Setting Up GPT Accounts for Research and Problem-Solving:
+GPT Accounts (like ChatGPT) are useful for solving technical problems and researching topics. It helps with code debugging, understanding concepts, and explaining difficult topics in simple terms.
+
+11. Understanding Layers of an Operating System:
+User Interface: What the user interacts with (e.g., GUI or CLI).
+Application Layer: Programs and applications running on the OS.
+Kernel: The core part of the OS managing hardware and system resources.
+Hardware: The physical components of the system (e.g., CPU, RAM, Storage).
+
+12. Identifying Hardware Components by Sight and Function:
+CPU (Central Processing Unit): The "brain" of the computer.
+RAM (Random Access Memory): Temporary memory for running programs.
+Storage (Hard Drive or SSD): Long-term data storage.
+Motherboard: The main circuit board that connects everything.
+Power Supply: Provides power to the system.
+
+13. What is a Network and How Does It Function?
+A network connects computers and devices to share resources (e.g., the internet). It can be local (LAN) or global (WAN).
+Components: Routers, switches, cables, and servers.
+Protocols: TCP/IP helps devices communicate.
+
+14. What is the Internet and How Does It Function?
+The Internet is a global network of networks that allows devices to communicate using the TCP/IP protocol.
+It enables browsing, email, file sharing, and more through a network of servers and routers.
+
+Tasks for the Week:
+Install GitHub and create an account.
+Make notes of concepts you’re learning and add them to your GitHub repository.
+Research and familiarize yourself with Linux distributions you may want to install.
+Remember, this week is for theory and preparation. Focus on understanding these foundational concepts before diving into hands-on projects!
